@@ -61,7 +61,7 @@ window.addEventListener('scroll', function () {
     const sections = [sectionHome, sectionAbout, sectionSkill, sectionProject, sectionContact];
 
     var navLinks = document.querySelectorAll('#navbarNav a.nav-link');
-    var scrollPos = window.scrollY + window.innerHeight / 2; // Adjust scroll position to account for window height
+    var scrollPos = window.scrollY + window.innerHeight / 2;
 
     sections.forEach(function (section, index) {
         var top = section.offsetTop;
@@ -71,8 +71,39 @@ window.addEventListener('scroll', function () {
                 link.classList.remove('active');
             });
             navLinks[index].classList.add('active');
+
+            // Update the URL hash without affecting the scroll position
+            history.replaceState(null, null, navLinks[index].getAttribute('href'));
         }
     });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var options = {
+        strings: ["TARUN YADAV", "TARUN YADAV"], // String(s) to be typed
+        typeSpeed: 60, // Speed of typing
+        backSpeed: 70, // Speed of erasing
+        backDelay: 500, // Delay before starting to erase
+        startDelay: 500, // Delay before typing starts
+        loop: true, // Loop the animation
+        showCursor: true // Show blinking cursor
+    };
+
+    new Typed('#typed', options);
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var options = {
+        strings: ["Full Stack Developer", "React Enthusiast", "MERN Stack Developer"],
+        typeSpeed: 60,
+        backSpeed: 30,
+        backDelay: 1000,
+        startDelay: 500,
+        loop: true
+    };
+
+    new Typed('#typed2', options);
 });
 
 

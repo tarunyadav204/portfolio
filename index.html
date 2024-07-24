@@ -12,6 +12,8 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/69f9fd70ed.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- Include Typed.js -->
+
 </head>
 
 <body>
@@ -77,7 +79,8 @@
         <div class="col-md-9 " id="myself">
           <div class="my-profile">
             <h3>HI, I am <br> <span id="typed">TARUN YADAV</span></h3>
-            <p> I am a recent graduate specializing in Information Technology. I have a passion for technology and a
+            <p style="color: #000000;"> I am a recent graduate specializing in Information Technology. I have a passion
+              for technology and a
               keen interest in learning new concepts and technologies in the IT field.
 
               Throughout my academic journey, I have acquired a strong foundation in various aspects of IT, including
@@ -119,224 +122,234 @@
             <span>JavaScript</span>
             <span>JQuery</span>
             <span>ReactJS</span>
+            <span>ChakraUI</span>
           </div>
-        </div>
-        <div class="skills-box">
-          <div class="skills-header">
-            <h3>Backend</h3>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Backend</h3>
+            </div>
+            <div class="skills-list">
+              <span>NodeJs</span>
+              <span>ExpressJS</span>
+            </div>
           </div>
-          <div class="skills-list">
-            <span>NodeJs</span>
-            <span>ExpressJS</span>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Database</h3>
+            </div>
+            <div class="skills-list">
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
           </div>
-        </div>
-        <div class="skills-box">
-          <div class="skills-header">
-            <h3>Database</h3>
-          </div>
-          <div class="skills-list">
-            <span>MySQL</span>
-            <span>MongoDB</span>
-          </div>
-        </div>
 
-        <div class="skills-box">
-          <div class="skills-header">
-            <h3>Languages</h3>
-          </div>
-          <div class="skills-list">
-            <span>C++</span>
-            <span>Python</span>
-            <span>GOLang</span>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Languages</h3>
+            </div>
+            <div class="skills-list">
+              <span>C++</span>
+              <span>Python</span>
+              <span>GOLang</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
 
-    <!--PROJECTS-->
-    <div class="projects container mt-5" id="projects">
-      <div class="top-header">
-        <h1>Projects</h1>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mt-5 projct">
-          <div class="card">
-            <img src="./assets/ecom.PNG" class="card-img-top" alt="Project 1">
-            <div class="card-body ">
+      <!--PROJECTS-->
+      <div class="projects container mt-5" id="projects">
+        <div class="top-header">
+          <h1>Projects</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mt-5 projct">
+            <div class="card">
+              <img src="./assets/ecom.PNG" class="card-img-top" alt="Project 1">
+              <div class="card-body ">
 
-              <p class="card-text" style="color: #000000;"> I've crafted a dynamic Ecommerce website using React,
-                demonstrating my prowess in both front-end design and back-end integration. This platform offers a
-                seamless shopping experience with intuitive navigation, product browsing. </p>
-              <div class="git">
-                <h2 class="card-title">E-COM WEB</h2>
-                <a href="https://github.com/tarunyadav204/ecommerceWeb.git" target="_blank" id="butn"><i
-                    class="fa-brands fa-github" style="color: #000000;"></i></a>
+                <p class="card-text" style="color: #000000;"> I've crafted a dynamic Ecommerce website using React,
+                  demonstrating my prowess in both front-end design and back-end integration. This platform offers a
+                  seamless shopping experience with intuitive navigation, product browsing. </p>
+                <div class="git">
+                  <h2 class="card-title">E-COM WEB</h2>
+                  <a href="https://github.com/tarunyadav204/ecommerceWeb.git" target="_blank" id="butn"><i
+                      class="fa-brands fa-github" style="color: #000000;"></i></a>
+                </div>
+
               </div>
-
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 mt-5">
-          <div class="card">
-            <img src="./assets/todoGO.PNG" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <p class="card-text" style="color: #000000;">Developed a Todo List application using React for the
-                frontend and Go for the backend. Implemented JWT authentication to ensure secure access, allowing only
-                authenticated users to manage their todos. This project demonstrates my skills in full-stack development
-                and secure user authentication. </p>
-              <div class="git">
-                <h5 class="card-title">Todo List Application with JWT Authentication</h5>
-                <a href="https://github.com/tarunyadav204/JWTtoWithGO.git" id="butn"><i class="fa-brands fa-github"
-                    style="color: #000000;"></i></a>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="./assets/todoGO.PNG" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <p class="card-text" style="color: #000000;">Developed a Todo List application using React for the
+                  frontend and Go for the backend. Implemented JWT authentication to ensure secure access, allowing
+                  only
+                  authenticated users to manage their todos. This project demonstrates my skills in full-stack
+                  development
+                  and secure user authentication. </p>
+                <div class="git">
+                  <h5 class="card-title">Todo List Application with JWT Authentication</h5>
+                  <a href="https://github.com/tarunyadav204/JWTtoWithGO.git" id="butn"><i class="fa-brands fa-github"
+                      style="color: #000000;"></i></a>
+                </div>
+
               </div>
-
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 mt-5">
-          <div class="card">
-            <img src="./assets/reactEncrypt.PNG" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <p class="card-text" style="color: #000000;">Created a secure file encryption tool using Golang that
-                allows users to encrypt and decrypt files with a password. Utilized AES encryption and PBKDF2 for key
-                generation, ensuring strong data protection. Developed a React frontend for seamless user interaction,
-                enabling easy file selection and encryption/decryption actions. </p>
-              <div class="git">
-                <h5 class="card-title">Password-Based File Encryption Tool with Golang and React</h5>
-                <a href="https://github.com/tarunyadav204/reactEncrypt.git" target="_blank" id="butn"><i
-                    class="fa-brands fa-github" style="color: #000000;"></i></a>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="./assets/reactEncrypt.PNG" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <p class="card-text" style="color: #000000;">Created a secure file encryption tool using Golang that
+                  allows users to encrypt and decrypt files with a password. Utilized AES encryption and PBKDF2 for
+                  key
+                  generation, ensuring strong data protection. Developed a React frontend for seamless user
+                  interaction,
+                  enabling easy file selection and encryption/decryption actions. </p>
+                <div class="git">
+                  <h5 class="card-title">Password-Based File Encryption Tool with Golang and React</h5>
+                  <a href="https://github.com/tarunyadav204/reactEncrypt.git" target="_blank" id="butn"><i
+                      class="fa-brands fa-github" style="color: #000000;"></i></a>
+                </div>
+
               </div>
-
             </div>
           </div>
+
+
+
         </div>
 
+        <div class="row mt-5">
 
 
-      </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="./assets/chatWebApp.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body ">
+                <p class="card-text" style="color: #000000;">Developed a real-time chat web application using
+                  React.js,
+                  Chakra UI, Node.js, Express.js, and Socket.IO. The
+                  application allows users to engage in instant messaging with each other, supporting both one-on-one
+                  and
+                  group chat
+                  functionalities.
+                </p>
+                <div class="git">
+                  <h2 class="card-title">Chat Web App</h2>
+                  <a href="https://talkandtalk.onrender.com" target="_blank" id="butn"><i class="fa-brands fa-github"
+                      style="color: #000000;"></i></a>
+                </div>
 
-      <div class="row mt-5">
-
-
-        <div class="col-md-4 mt-5">
-          <div class="card">
-            <img src="./assets/chatWebApp.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body ">
-              <p class="card-text" style="color: #000000;">Developed a real-time chat web application using React.js,
-                Chakra UI, Node.js, Express.js, and Socket.IO. The
-                application allows users to engage in instant messaging with each other, supporting both one-on-one and
-                group chat
-                functionalities.
-              </p>
-              <div class="git">
-                <h2 class="card-title">Chat Web App</h2>
-                <a href="https://talkandtalk.onrender.com" target="_blank" id="butn"><i class="fa-brands fa-github"
-                    style="color: #000000;"></i></a>
               </div>
-
             </div>
           </div>
-        </div>
 
 
 
-        <div class="col-md-4 mt-5">
-          <div class="card">
-            <img src="./assets/searchEngine.PNG" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <p class="card-text">I've developed a powerful Image Search Engine using JavaScript, highlighting my
-                expertise in front-end development and data manipulation. This project enables users to search for
-                images based on keywords and displays relevant results in a visually appealing manner.</p>
-              <div class="git">
-                <h5 class="card-title">Image Search Engine</h5>
-                <a href="https://image-search-engine-pearl.vercel.app/" target="_blank" id="butn"><i
-                    class="fa-brands fa-github" style="color: #000000;"></i></a>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="./assets/searchEngine.PNG" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <p class="card-text">I've developed a powerful Image Search Engine using JavaScript, highlighting my
+                  expertise in front-end development and data manipulation. This project enables users to search for
+                  images based on keywords and displays relevant results in a visually appealing manner.</p>
+                <div class="git">
+                  <h5 class="card-title">Image Search Engine</h5>
+                  <a href="https://image-search-engine-pearl.vercel.app/" target="_blank" id="butn"><i
+                      class="fa-brands fa-github" style="color: #000000;"></i></a>
+                </div>
+
               </div>
-
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 mt-5">
-          <div class="card">
-            <img src="./assets/crudapi.jpeg" class="card-img-top" alt="Project 1">
-            <div class="card-body ">
-              <p class="card-text">I've developed a robust CRUD API using React, demonstrating my proficiency in
-                full-stack development. Leveraging React.js for the frontend and Express.js for the backend, I've
-                created a seamless user experience with efficient data management. </p>
-              <div class="git">
-                <h2 class="card-title">REACT CRUD API</h2>
-                <a href="https://github.com/tarunyadav204/crudapi.git" target="_blank" id="butn"><i
-                    class="fa-brands fa-github" style="color: #000000;"></i></a>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <img src="./assets/crudapi.jpeg" class="card-img-top" alt="Project 1">
+              <div class="card-body ">
+                <p class="card-text">I've developed a robust CRUD API using React, demonstrating my proficiency in
+                  full-stack development. Leveraging React.js for the frontend and Express.js for the backend, I've
+                  created a seamless user experience with efficient data management. </p>
+                <div class="git">
+                  <h2 class="card-title">REACT CRUD API</h2>
+                  <a href="https://github.com/tarunyadav204/crudapi.git" target="_blank" id="butn"><i
+                      class="fa-brands fa-github" style="color: #000000;"></i></a>
+                </div>
+
               </div>
-
             </div>
           </div>
-        </div>
 
 
 
-      </div>
-    </div>
-
-
-
-
-    <!--Contact -->
-    <div class="contact container mt-5 " id="contact">
-      <h2 class="text-center ">Contact Me</h2>
-      <div class="row mt-5">
-        <div class="col-md-6 forContact">
-          <form method="post" id="form">
-            <input type="hidden" name="access_key" value="b796069c-f740-4b04-a24f-8c6fa400284b">
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
-            <span id="msg"></span>
-          </form>
-        </div>
-        <div class="col-md-6 getTouch">
-          <h4 class="text-center ">Get In Touch</h4>
-          <p>If you're looking for a dedicated and passionate individual to join your team or work on your projects, I'd
-            love to hear from you!</p>
-          <ul class="list-unstyled">
-            <li><a href="mailto:tarunkumar08yadav@gmail.com"><i class="fas fa-envelope fa-bounce"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/tarun-yadav1508/" target="_blank"><i
-                  class="fa-brands fa-linkedin fa-bounce" style="color: #0b0b0b;"></i></a></li>
-            <li><a href="https://github.com/tarunyadav204" target="_blank"> <i class="fa-brands fa-github fa-bounce"
-                  style="color: #000000;"></i> </a></li>
-
-          </ul>
-          <button class="btn btn-primary" onclick="location.href='mailto:tarunkumar08yadav@gmail.com';">Hire Me</button>
-          <!-- This is the "Hire Me" button -->
         </div>
       </div>
-    </div>
 
 
-    <!--footer-->
 
 
-    <div class="container-fluid footer">
-      <div class="row bg-dark">
-        <div class="col text-center py-4">
-          <p>&copy; 2023 TARUN YADAV. All Rights Reserved.</p>
+      <!--Contact -->
+      <div class="contact container mt-5 " id="contact">
+        <h2 class="text-center ">Contact Me</h2>
+        <div class="row mt-5">
+          <div class="col-md-6 forContact">
+            <form method="post" id="form">
+              <input type="hidden" name="access_key" value="b796069c-f740-4b04-a24f-8c6fa400284b">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+              <span id="msg"></span>
+            </form>
+          </div>
+          <div class="col-md-6 getTouch">
+            <h4 class="text-center ">Get In Touch</h4>
+            <p>If you're looking for a dedicated and passionate individual to join your team or work on your projects,
+              I'd
+              love to hear from you!</p>
+            <ul class="list-unstyled">
+              <li><a href="mailto:tarunkumar08yadav@gmail.com"><i class="fas fa-envelope fa-bounce"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/tarun-yadav1508/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-bounce" style="color: #0b0b0b;"></i></a></li>
+              <li><a href="https://github.com/tarunyadav204" target="_blank"> <i class="fa-brands fa-github fa-bounce"
+                    style="color: #000000;"></i> </a></li>
+
+            </ul>
+            <button class="btn btn-primary" onclick="location.href='mailto:tarunkumar08yadav@gmail.com';">Hire
+              Me</button>
+            <!-- This is the "Hire Me" button -->
+          </div>
         </div>
       </div>
-    </div>
+
+
+      <!--footer-->
+
+
+      <div class="footer bg-dark text-white">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-center py-4">
+              <p class="mb-0">&copy; 2023 TARUN YADAV. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </section>
 
@@ -349,7 +362,7 @@
   </script>
   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
   <script src="https://web3forms.com/client/script.js" async defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+
 
   <script src="./script.js"></script>
 
